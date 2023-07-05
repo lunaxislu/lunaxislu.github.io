@@ -1,0 +1,26 @@
+# main links
+main:
+  - title: "Categories"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
+
+sidebar-category:
+  - title: "Tool"
+    children:
+      - title: "Git"
+        url: "/git"
+        category: "git"
+
+  - title: "Dev Blog"
+    children:
+      - title: "Jekyll"
+        url: "/jekyll"
+        category: "jekyll"
+
+  - title: "HTML & CSS"
+    children:
+      - title: "HTML&CSS"
+        url: "/HTMLCSS"
+        category: "HTMLCSS"
+
