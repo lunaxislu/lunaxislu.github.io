@@ -107,17 +107,17 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
+  margin: 0; /*2em 1em 2em 0(default)->*/
   padding-left: 1em;
   padding-right: 1em;
-  padding-top: 1em; /*추가*/
-  padding-bottom: .5em; /*추가*/
   font-style: normal; /*italic => normal*/
   border-left: 0.25em solid $primary-color;
+
+  &:p {
+    margin: 0 0 0.8em;
+  }
   cite {
    /* font-style: italic; */
-
-
     &:before {
       content: "\2014";
       padding-right: 5px;

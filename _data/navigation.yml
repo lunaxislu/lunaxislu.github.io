@@ -24,3 +24,6 @@ sidebar-category:
         url: "/HTMLCSS"
         category: "HTMLCSS"
 
+      - title: "Bootstrap"
+        url: "/bootstrap"
+        category: "bootstrap"
