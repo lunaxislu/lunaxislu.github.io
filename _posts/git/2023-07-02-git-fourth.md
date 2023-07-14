@@ -24,7 +24,7 @@ git diff
 
 ![git_sample](/assets/images/git/230701_git_10.PNG)
 
-git diff 를 하면 ++ 된것이 추가 된 사항이라는 뜻이다.
+git diff 를 하면 ++ 문구가 뜨는데, ++는 추가 된 사항이라는 뜻이다.
 
 
 commit한 모든 것과 차이를 볼 필요가 없지 않은가?
@@ -36,9 +36,10 @@ git diff 커밋한id
 
 $ commit 한 것을 보려면 
 
-git log --all --oneline으로 입력하고 노란색으로 -visual studio 기준- 
+git log --all --oneline으로 입력하고 노란색으로 (visual studio 기준) 
 나오는 숫자+영문 조합이 있다. 
 그것이 커밋한 id 
+
 ```
 커밋한id와 지금 수정한 -add 안한- 파일과의 비교가 가능하다.
 
@@ -51,12 +52,14 @@ git diff 커밋-1 커밋-2
 그런데 말입니다. :raised_eyebrow:
 {: .notice--warning}
 
-terminal 안에서만 차이를 보기가 너무 힘이듭니다.
+terminal 안에서 차이를 보기가 너무 힘이듭니다.
 <BR>
-그래서,
+그래서, terminal안에
+git difftool  
+이라고 입력하자 
 
 ```terminal
-git difftool  terminal 안에서 입력해보자
+git difftool
 ```
 ![git_sample](/assets/images/git/230701_git_11.PNG)
 

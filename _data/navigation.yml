@@ -27,3 +27,7 @@ sidebar-category:
       - title: "Bootstrap"
         url: "/bootstrap"
         category: "bootstrap"
+
+      - title: "SCSS"
+        url: "/scss"
+        category: "scss"
