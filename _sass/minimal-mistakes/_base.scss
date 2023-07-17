@@ -339,3 +339,13 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+img + em {
+  text-align: center;
+  margin-top: 12px;
+  display: block;
+}
+
+strong {
+  color: orange;
+}
