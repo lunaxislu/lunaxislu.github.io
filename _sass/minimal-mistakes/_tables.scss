@@ -3,6 +3,7 @@
    ========================================================================== */
 
 table {
+  border: 1px solid;
   display: block;
   margin-bottom: 1em;
   width: 100%;
@@ -17,7 +18,6 @@ table {
 }
 
 thead {
-  background-color: $border-color;
   border-bottom: 2px solid mix(#000, $border-color, 25%);
 }
 
@@ -29,6 +29,7 @@ th {
 
 td {
   padding: 0.5em;
+  border-right: 1px solid rgb(234, 234, 234);
   border-bottom: 1px solid mix(#000, $border-color, 25%);
 }
 
